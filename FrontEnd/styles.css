@@ -45,39 +45,9 @@ nav a {
     margin: 20px 0;
 }
 
-.btn {
-    background: #27ae60;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 5px;
-}
 
-/* Loan Calculator */
-.calculator {
-    padding: 50px;
-    background: #ecf0f1;
-}
 
-.calc-container {
-    max-width: 400px;
-    margin: auto;
-}
 
-.calc-container input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-}
-
-button {
-    background: #2980b9;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    cursor: pointer;
-}
 
 /* Loan Types */
 .loans {
