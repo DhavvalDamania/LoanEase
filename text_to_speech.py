@@ -67,8 +67,11 @@ def tts(chunks):
     # combine decoded audio chunks
     merged_audio = merge_audio(base64_decoded_audio_chunks)
     
-    with open("output_audio.wav", "wb") as audio_file:
-        audio_file.write(merged_audio)
-        print("Audio saved as 'output_audio.wav'")
+    #with open("output_audio.wav", "wb") as audio_file:
+    #    audio_file.write(merged_audio)
+    #    print("Audio saved as 'output_audio.wav'")
     
+    # Export the merged audio to a file
+    merged_audio.export("output_audio.wav", format="wav")
+    print("Audio saved as 'output_audio.wav'")
 
