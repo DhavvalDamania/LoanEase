@@ -10,7 +10,7 @@ def ask_cohere(question):
     response = co.generate(
         model="command",  # Free-tier model
         prompt=question,
-        max_tokens=300  # Adjust response length
+        max_tokens=500  # Adjust response length
     )
     return response.generations[0].text.strip()
 
@@ -31,13 +31,13 @@ def split_string(input_string):
 # Test the assistant
 source_language_code = input("Enter the source language code (e.g., 'en-IN'): ")
 target_language_code = input("Enter the target language code (e.g., 'gu-IN'): ")
-input_text = input("Enter the text you want to translate: ")
+input_text = input("What question do you want to ask: ")
 response = ask_cohere(input_text)
 print("AI Response:", response)
 chunks = split_string(response)
 tts(chunks)
 
 chunk_list_len = len(chunks)
-for i in range(chunk_list_len+1):
+for i in range(chunk_list_len):
     translated_string = ()
     translated_string += translation(chunks[i],source_language_code,target_language_code)
