@@ -1,9 +1,29 @@
 import requests
 import base64
+from pydub import AudioSegment
+from io import BytesIO
+
+# Solution-2: Creates 1 audio file by combining audio using pydub/AudioSegment
+
+def merge_audio(audio_chunks):
+    # Create an empty audio file
+    combined_audio = None
+    
+    for audio_chunk in audio_chunks:
+        # Create an AudioSegment from the binary audio data
+        audio = AudioSegment.from_wav(BytesIO(audio_chunk))
+        
+        if combined_audio is None:
+            combined_audio = audio
+        else:
+            # Concatenate to the existing audio
+            combined_audio += audio
+    
+    return combined_audio
 
 def tts(chunks):
     # initialize empty string to store sarvam response. Each sarvam 'audio' response will be appended to this string.
-    base64_audio = ""
+    base64_decoded_audio_chunks = []
     
     # loop through each chunk. Call sarvam API for each chunk.
     for chunk in chunks:
@@ -35,19 +55,20 @@ def tts(chunks):
             #print(response.text)
             jsondata = response.json()
             
-            # Append audio data of each response
-            base64_audio += (jsondata['audios'])[0]
+            # decode audio data.
+            audio_data = base64.b64decode((jsondata['audios'])[0])
+            # append decoded data to our list 
+            base64_decoded_audio_chunks.append(audio_data)
+        
         else:
             print("Error:", response.status_code, response.text)
     #end of for loop
     
-    # decode appended audio data. Note that this is FULL audio data of all chunks response
-    audio_data = base64.b64decode(base64_audio[0])
-
+    # combine decoded audio chunks
+    merged_audio = merge_audio(base64_decoded_audio_chunks)
+    
     with open("output_audio.wav", "wb") as audio_file:
-        audio_file.write(audio_data)
+        audio_file.write(merged_audio)
         print("Audio saved as 'output_audio.wav'")
+    
 
-
-
-        #hello
