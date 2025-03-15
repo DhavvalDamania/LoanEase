@@ -39,24 +39,6 @@
         <th>DTI Ratio Limit</th>
         <th>Co-Applicant Allowed</th>
     </tr>
-    {% for loan in loans %}
-    <tr>
-        <td>{{ loan.id }}</td>
-        <td>{{ loan.bank_name }}</td>
-        <td>{{ loan.loan_type }}</td>
-        <td>{{ loan.min_loan_amount }}</td>
-        <td>{{ loan.max_loan_amount }}</td>
-        <td>{{ loan.interest_rate }}</td>
-        <td>{{ loan.tenure_years }}</td>
-        <td>{{ loan.processing_fee }}</td>
-        <td>{{ loan.prepayment_penalty }}</td>
-        <td>{{ loan.min_credit_score }}</td>
-        <td>{{ loan.min_income }}</td>
-        <td>{{ loan.employment_type }}</td>
-        <td>{{ loan.dti_ratio_limit }}</td>
-        <td>{{ loan.co_applicant_allowed }}</td>
-    </tr>
-    {% endfor %}
 </table>
 </body>
 </html>
