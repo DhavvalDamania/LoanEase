@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import requests
 
 # URL for the Sarvam API
@@ -39,3 +40,6 @@ with open(audio_file_path, 'rb') as audio_file:
     else:
         print("Error:", response.status_code)
         print(response.text)
+=======
+
+>>>>>>> Stashed changes
