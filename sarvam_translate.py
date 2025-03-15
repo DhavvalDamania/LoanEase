@@ -2,9 +2,9 @@ import requests
 
 url = "https://api.sarvam.ai/translate"
 
-input_text = input("Enter the text you want to translate: ")
 source_language_code = input("Enter the source language code (e.g., 'en-IN'): ")
 target_language_code = input("Enter the target language code (e.g., 'gu-IN'): ")
+input_text = input("Enter the text you want to translate: ")
 
 payload = {
     "input": input_text,
