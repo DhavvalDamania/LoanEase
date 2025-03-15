@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Data</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Loan Data</h2>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Bank Name</th>
+        <th>Loan Type</th>
+        <th>Min Loan Amount</th>
+        <th>Max Loan Amount</th>
+        <th>Interest Rate</th>
+        <th>Tenure Years</th>
+        <th>Processing Fee</th>
+        <th>Prepayment Penalty</th>
+        <th>Min Credit Score</th>
+        <th>Min Income</th>
+        <th>Employment Type</th>
+        <th>DTI Ratio Limit</th>
+        <th>Co-Applicant Allowed</th>
+    </tr>
+    {% for loan in loans %}
+    <tr>
+        <td>{{ loan.id }}</td>
+        <td>{{ loan.bank_name }}</td>
+        <td>{{ loan.loan_type }}</td>
+        <td>{{ loan.min_loan_amount }}</td>
+        <td>{{ loan.max_loan_amount }}</td>
+        <td>{{ loan.interest_rate }}</td>
+        <td>{{ loan.tenure_years }}</td>
+        <td>{{ loan.processing_fee }}</td>
+        <td>{{ loan.prepayment_penalty }}</td>
+        <td>{{ loan.min_credit_score }}</td>
+        <td>{{ loan.min_income }}</td>
+        <td>{{ loan.employment_type }}</td>
+        <td>{{ loan.dti_ratio_limit }}</td>
+        <td>{{ loan.co_applicant_allowed }}</td>
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
