@@ -74,4 +74,3 @@ def tts(chunks):
     # Export the merged audio to a file
     merged_audio.export("output_audio.wav", format="wav")
     print("Audio saved as 'output_audio.wav'")
-
