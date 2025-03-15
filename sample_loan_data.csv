@@ -1,0 +1,506 @@
+Bank Name,Loan Type,Min Loan Amount,Max Loan Amount,Interest Rate (%),Tenure (Years),Processing Fee (%),Prepayment Penalty,Min Credit Score,Min Income,Employment Type,DTI Ratio Limit,Co-Applicant Allowed
+Bank of America,Home Loan,50000,500000,6.5,30,1.2,No,700,50000,Salaried,40,Yes
+Chase,Auto Loan,10000,80000,4.5,7,0.5,No,650,30000,Salaried,45,No
+Wells Fargo,Personal Loan,5000,50000,10.0,5,2.0,No,680,25000,Self-Employed,50,Yes
+Citibank,Student Loan,2000,100000,5.0,10,1.5,No,620,20000,Student,55,Yes
+Capital One,Business Loan,25000,1000000,8.5,20,1.8,Yes,720,75000,Business Owner,35,No
+TD Bank,Auto Loan,55275,325290,8.46,9,2.97,No,703,38004,Student,44,No
+PNC Bank,Personal Loan,27498,162957,10.44,16,0.52,Yes,611,94040,Self-Employed,35,No
+Wells Fargo,Business Loan,43343,662591,5.15,29,2.05,No,692,60718,Business Owner,42,Yes
+PNC Bank,Auto Loan,12940,568572,14.9,1,1.75,No,604,58945,Student,40,Yes
+Capital One,Business Loan,2031,317708,7.15,12,2.35,Yes,607,82213,Student,38,No
+Wells Fargo,Auto Loan,64987,303295,5.93,7,2.18,Yes,710,38736,Business Owner,49,No
+Chase,Personal Loan,69698,181115,5.05,20,2.48,Yes,657,28338,Business Owner,58,Yes
+Bank of America,Home Loan,3336,859066,14.83,24,2.53,No,625,58544,Salaried,31,Yes
+PNC Bank,Home Loan,70028,70478,9.11,22,1.31,Yes,722,52359,Salaried,50,Yes
+Bank of America,Home Loan,99796,117738,9.47,3,2.82,No,625,38361,Student,58,No
+SunTrust,Auto Loan,39566,368823,14.19,27,1.29,No,681,39926,Salaried,51,Yes
+Chase,Personal Loan,74970,595387,14.16,25,1.98,No,649,84936,Student,56,Yes
+Chase,Student Loan,1698,9591,14.71,23,0.94,No,710,48674,Student,32,Yes
+Citibank,Auto Loan,26998,952940,14.9,2,1.86,No,680,53148,Salaried,53,No
+US Bank,Business Loan,90590,684723,5.37,7,2.8,Yes,682,84833,Student,55,Yes
+Wells Fargo,Auto Loan,90339,240496,10.77,29,0.79,No,709,30251,Self-Employed,58,No
+Bank of America,Student Loan,85780,106622,4.51,27,1.49,Yes,693,62542,Self-Employed,45,Yes
+Bank of America,Home Loan,40675,520977,5.9,27,2.92,No,636,25916,Student,32,Yes
+US Bank,Student Loan,14438,846878,3.23,1,2.29,No,655,51111,Student,56,Yes
+SunTrust,Home Loan,58738,992196,6.76,14,0.68,Yes,666,80126,Business Owner,40,Yes
+TD Bank,Auto Loan,60414,875390,7.59,11,2.29,Yes,742,89775,Student,40,Yes
+Chase,Student Loan,90219,278862,9.87,6,1.85,No,726,39243,Student,41,No
+Capital One,Personal Loan,88740,537272,9.51,1,2.42,No,691,63245,Business Owner,56,No
+Bank of America,Business Loan,95842,774564,4.21,9,1.31,No,724,43599,Student,32,Yes
+Bank of America,Student Loan,51954,479257,5.21,20,0.63,No,694,61873,Salaried,35,No
+Wells Fargo,Home Loan,6488,249637,7.95,8,1.7,No,743,28474,Business Owner,56,No
+US Bank,Home Loan,50796,995677,6.42,27,1.71,Yes,638,83911,Salaried,43,No
+Citibank,Personal Loan,68463,204117,3.11,3,0.65,No,641,44989,Student,46,No
+Wells Fargo,Auto Loan,54755,235465,7.2,21,1.99,Yes,673,20238,Salaried,35,Yes
+SunTrust,Personal Loan,53749,590085,6.12,8,2.41,Yes,655,70903,Salaried,51,No
+Capital One,Auto Loan,82796,810074,11.4,25,1.59,No,657,36658,Salaried,47,Yes
+Bank of America,Student Loan,98096,512071,12.43,21,2.25,Yes,737,29847,Self-Employed,46,No
+Citibank,Personal Loan,84126,397565,13.13,23,0.66,No,612,28608,Salaried,39,No
+Capital One,Student Loan,91892,397901,9.95,2,1.75,Yes,683,96301,Salaried,56,Yes
+Chase,Student Loan,99472,669882,6.23,17,0.92,Yes,734,45712,Business Owner,30,Yes
+PNC Bank,Auto Loan,44947,564256,7.75,9,2.05,Yes,747,55531,Student,59,Yes
+US Bank,Business Loan,71923,629087,12.2,26,0.7,Yes,645,41296,Student,42,No
+PNC Bank,Home Loan,82812,104434,11.58,13,1.32,Yes,718,72849,Business Owner,57,Yes
+Regions Bank,Business Loan,70816,702727,7.38,27,2.06,Yes,614,53094,Student,59,Yes
+Capital One,Home Loan,27449,888583,6.16,22,0.83,No,662,55955,Salaried,54,Yes
+Regions Bank,Business Loan,24668,994890,11.95,25,1.03,Yes,646,44508,Student,32,No
+PNC Bank,Student Loan,11921,262320,14.33,23,2.14,No,612,73339,Self-Employed,38,Yes
+PNC Bank,Student Loan,42500,318165,7.88,17,1.64,No,696,27223,Salaried,47,No
+SunTrust,Business Loan,48925,974338,13.31,23,2.82,No,621,42302,Student,31,Yes
+TD Bank,Personal Loan,26196,369200,7.85,16,1.41,No,727,79592,Business Owner,43,Yes
+Citibank,Home Loan,84856,208129,3.75,15,0.56,No,604,95549,Student,36,No
+Wells Fargo,Business Loan,91859,587971,11.07,5,2.73,Yes,649,41723,Self-Employed,47,No
+Bank of America,Business Loan,96667,840935,3.58,23,1.0,Yes,705,72822,Salaried,42,Yes
+Bank of America,Student Loan,44680,126813,7.09,26,1.1,Yes,690,90155,Self-Employed,34,No
+US Bank,Personal Loan,5597,660943,5.68,16,2.29,Yes,678,63554,Self-Employed,38,Yes
+Capital One,Home Loan,9221,84029,6.26,18,1.59,No,682,22883,Salaried,52,No
+Capital One,Business Loan,4941,783355,10.98,19,0.78,Yes,661,39606,Self-Employed,52,Yes
+Chase,Student Loan,30340,994075,11.84,4,2.98,No,696,80773,Student,50,No
+SunTrust,Personal Loan,58993,923825,7.17,8,0.84,Yes,633,82284,Self-Employed,37,No
+Bank of America,Student Loan,37047,451903,13.7,21,0.84,No,662,85714,Self-Employed,40,No
+Regions Bank,Home Loan,84633,412262,9.71,28,0.57,No,618,52762,Self-Employed,50,Yes
+PNC Bank,Student Loan,28054,367376,6.73,26,2.4,No,701,31865,Salaried,32,Yes
+SunTrust,Home Loan,66692,954467,5.33,8,0.6,Yes,619,63943,Salaried,33,Yes
+Capital One,Business Loan,19356,913702,9.78,26,1.61,No,646,76883,Salaried,45,No
+Bank of America,Home Loan,84641,521657,10.42,5,1.88,Yes,674,77290,Student,47,Yes
+Chase,Home Loan,59539,410397,6.4,8,2.95,No,690,75169,Self-Employed,34,No
+Bank of America,Business Loan,50217,197665,12.12,21,0.62,No,746,27854,Business Owner,54,No
+Wells Fargo,Auto Loan,85446,135912,4.79,10,0.76,No,723,20170,Salaried,50,No
+SunTrust,Student Loan,88318,289158,14.14,6,0.62,Yes,735,21745,Business Owner,33,Yes
+Chase,Personal Loan,91396,811593,9.93,28,1.12,Yes,695,81127,Business Owner,48,No
+Capital One,Home Loan,10592,565277,10.3,12,2.37,No,638,96528,Student,48,Yes
+Wells Fargo,Auto Loan,91097,945929,5.83,20,1.38,Yes,687,86789,Salaried,39,Yes
+TD Bank,Business Loan,17311,209042,14.34,14,1.98,No,636,70512,Self-Employed,34,Yes
+PNC Bank,Auto Loan,59907,319937,4.61,14,1.6,No,639,72784,Student,45,No
+Regions Bank,Business Loan,66400,634108,3.2,12,0.97,No,724,89716,Salaried,36,No
+Capital One,Auto Loan,67889,762709,10.56,24,2.24,Yes,714,24455,Business Owner,48,Yes
+Bank of America,Personal Loan,98012,686635,10.06,20,1.01,No,675,52103,Self-Employed,51,Yes
+Bank of America,Home Loan,13843,449375,8.12,14,0.94,No,643,72581,Student,44,Yes
+Citibank,Auto Loan,10391,816824,12.26,21,2.55,No,654,44929,Self-Employed,33,No
+Wells Fargo,Home Loan,46694,94412,8.69,1,2.62,No,645,43044,Business Owner,45,No
+Capital One,Student Loan,8072,637880,11.84,8,1.48,Yes,628,97755,Salaried,34,Yes
+US Bank,Student Loan,58388,116163,3.03,20,1.97,No,680,52135,Business Owner,53,No
+Capital One,Student Loan,47089,797745,3.97,4,1.93,Yes,723,77361,Student,48,No
+TD Bank,Business Loan,99948,670487,14.91,13,2.06,Yes,674,20422,Student,50,Yes
+Wells Fargo,Auto Loan,57626,596952,4.45,18,2.66,No,647,93766,Salaried,56,No
+Capital One,Auto Loan,78064,905851,7.34,9,2.66,No,637,75282,Self-Employed,36,Yes
+Citibank,Home Loan,58729,431114,10.41,9,0.67,No,700,65721,Student,41,Yes
+Chase,Auto Loan,2481,257930,4.19,14,2.12,No,688,36874,Business Owner,38,Yes
+Wells Fargo,Home Loan,91038,711702,7.02,27,0.89,No,704,37360,Self-Employed,45,Yes
+PNC Bank,Personal Loan,49938,610070,12.33,26,2.17,No,733,43457,Self-Employed,47,No
+TD Bank,Student Loan,7115,966156,5.92,8,1.24,Yes,681,55700,Self-Employed,55,No
+Chase,Business Loan,59285,509410,8.46,26,1.28,No,604,47640,Student,44,No
+SunTrust,Auto Loan,67953,402275,13.53,13,1.09,Yes,607,62661,Salaried,55,Yes
+PNC Bank,Personal Loan,76877,549250,13.98,5,0.63,Yes,623,83162,Student,34,Yes
+TD Bank,Auto Loan,78158,487472,5.41,9,1.43,No,731,37247,Student,45,Yes
+TD Bank,Auto Loan,96558,389103,13.49,2,0.82,No,727,28272,Salaried,42,No
+PNC Bank,Home Loan,76239,560347,8.51,26,1.43,Yes,660,68494,Salaried,56,No
+Wells Fargo,Auto Loan,95366,754452,7.03,18,1.04,Yes,659,53005,Business Owner,42,Yes
+US Bank,Home Loan,28259,222734,14.67,19,2.6,No,660,29909,Student,54,Yes
+Chase,Business Loan,1997,402034,8.44,19,1.23,No,651,39396,Student,44,No
+SunTrust,Student Loan,88552,548123,5.73,11,2.01,Yes,623,90254,Student,54,No
+Capital One,Auto Loan,6857,637703,14.82,24,1.1,No,706,40281,Business Owner,45,Yes
+Bank of America,Student Loan,88953,880491,8.29,2,2.1,Yes,699,30476,Student,58,Yes
+US Bank,Home Loan,30665,371265,7.58,14,2.47,Yes,744,42047,Business Owner,58,Yes
+PNC Bank,Student Loan,74376,602775,11.32,21,0.75,No,640,80576,Business Owner,50,Yes
+Wells Fargo,Auto Loan,86488,123242,7.84,17,2.75,No,612,73298,Salaried,31,Yes
+SunTrust,Home Loan,26413,237106,14.15,14,0.64,Yes,682,40044,Student,31,Yes
+PNC Bank,Business Loan,90353,277221,14.3,8,1.59,Yes,715,65790,Student,59,No
+Regions Bank,Student Loan,54277,81052,11.38,29,1.46,No,687,25008,Salaried,50,No
+PNC Bank,Home Loan,31212,735495,4.14,6,0.71,Yes,708,95104,Salaried,37,No
+Citibank,Business Loan,28197,851701,13.97,4,0.65,Yes,609,45144,Self-Employed,53,No
+Citibank,Personal Loan,11117,347095,7.15,5,1.97,Yes,713,27647,Business Owner,58,Yes
+US Bank,Auto Loan,11081,706755,4.39,2,2.19,No,698,57475,Salaried,31,Yes
+SunTrust,Personal Loan,73628,240731,3.37,19,2.68,No,693,29916,Self-Employed,40,No
+Bank of America,Business Loan,29141,859061,12.47,29,1.78,No,688,69885,Business Owner,46,No
+Chase,Home Loan,22608,143389,5.71,1,0.53,No,605,98473,Self-Employed,31,Yes
+PNC Bank,Personal Loan,33798,847580,6.0,13,2.68,Yes,719,51888,Self-Employed,56,No
+Regions Bank,Auto Loan,59582,291944,9.95,23,1.71,Yes,715,44018,Business Owner,36,No
+US Bank,Home Loan,59629,973518,12.43,10,0.69,No,642,78791,Student,45,No
+Wells Fargo,Personal Loan,73294,135465,5.88,14,2.27,Yes,670,53018,Self-Employed,55,Yes
+Chase,Personal Loan,8027,487987,3.15,26,1.28,Yes,710,53739,Student,34,No
+Regions Bank,Business Loan,30510,426598,5.96,8,2.41,No,624,20682,Business Owner,36,Yes
+US Bank,Student Loan,39983,152423,7.89,1,2.41,No,737,80624,Self-Employed,49,No
+Wells Fargo,Auto Loan,87625,340128,4.09,11,2.91,No,683,25517,Salaried,39,Yes
+Citibank,Business Loan,9676,642660,6.02,10,2.81,No,702,23029,Business Owner,31,Yes
+PNC Bank,Student Loan,86478,425840,9.72,7,0.95,Yes,728,24445,Business Owner,56,No
+Capital One,Personal Loan,68387,893870,6.2,22,2.25,Yes,613,44496,Student,31,Yes
+Chase,Student Loan,99664,913193,14.81,16,2.33,No,666,86156,Business Owner,45,No
+SunTrust,Student Loan,31059,739059,6.96,4,2.93,No,625,61726,Self-Employed,49,No
+TD Bank,Business Loan,22860,220616,6.98,27,1.84,No,703,73909,Salaried,59,Yes
+US Bank,Auto Loan,5747,421988,9.13,22,1.34,No,679,44991,Business Owner,31,No
+Regions Bank,Auto Loan,19378,538671,10.95,18,0.66,No,681,90033,Student,40,Yes
+Chase,Home Loan,3405,666584,11.85,22,1.0,No,727,20314,Salaried,52,Yes
+TD Bank,Student Loan,97402,610934,12.02,8,0.97,No,718,42307,Salaried,51,Yes
+Bank of America,Personal Loan,63904,781561,7.41,16,2.12,No,658,46204,Student,35,Yes
+PNC Bank,Business Loan,8909,614279,5.64,25,1.26,Yes,623,52559,Salaried,33,Yes
+Capital One,Auto Loan,42139,43980,10.97,27,1.3,Yes,647,50162,Business Owner,50,Yes
+Chase,Student Loan,44643,747793,12.49,15,1.92,Yes,745,93794,Self-Employed,52,No
+Chase,Business Loan,83566,414377,13.59,9,2.52,Yes,656,32713,Business Owner,55,Yes
+Citibank,Home Loan,81551,941766,11.84,27,2.71,Yes,708,92525,Salaried,40,Yes
+Capital One,Home Loan,17294,257955,4.44,29,2.75,No,661,96495,Salaried,36,Yes
+TD Bank,Business Loan,15872,378564,6.16,29,1.48,Yes,749,33698,Business Owner,31,Yes
+US Bank,Business Loan,5731,600415,8.73,27,0.99,Yes,708,88874,Business Owner,51,Yes
+Regions Bank,Student Loan,53734,882043,5.19,6,1.76,No,673,52620,Salaried,50,No
+US Bank,Auto Loan,26606,597208,7.36,29,1.51,Yes,705,70539,Self-Employed,36,Yes
+Citibank,Student Loan,56988,328435,7.54,10,0.98,No,705,62372,Student,54,No
+Citibank,Student Loan,63478,737148,8.23,22,0.99,No,635,73925,Business Owner,44,Yes
+PNC Bank,Home Loan,25206,486845,7.32,7,1.83,Yes,655,22554,Business Owner,54,No
+Capital One,Student Loan,11436,650633,10.27,4,2.03,Yes,719,32198,Student,34,No
+Wells Fargo,Personal Loan,31421,296486,7.33,18,0.66,Yes,653,75053,Salaried,56,No
+Regions Bank,Auto Loan,45992,451181,7.69,17,1.43,No,685,45328,Salaried,38,No
+Citibank,Personal Loan,16164,27897,4.19,20,0.51,Yes,727,96978,Self-Employed,51,Yes
+Regions Bank,Business Loan,43831,447014,10.14,6,2.48,Yes,627,40382,Salaried,51,Yes
+Capital One,Personal Loan,59185,425089,12.67,21,2.85,Yes,614,47427,Student,42,No
+US Bank,Home Loan,51798,417932,14.23,14,0.63,Yes,723,28130,Salaried,30,Yes
+Wells Fargo,Personal Loan,87706,357993,14.22,2,1.43,Yes,723,83039,Self-Employed,41,Yes
+Citibank,Home Loan,6371,852834,14.25,13,2.96,No,647,63713,Student,52,No
+Bank of America,Personal Loan,29544,168432,9.08,24,1.88,No,607,41617,Self-Employed,59,No
+Capital One,Business Loan,18584,780556,14.44,21,0.56,Yes,602,66768,Self-Employed,50,Yes
+Capital One,Auto Loan,46003,791450,13.53,8,1.31,No,647,83927,Student,34,No
+Chase,Student Loan,6484,261760,4.98,10,2.66,Yes,724,26415,Business Owner,54,Yes
+Wells Fargo,Personal Loan,62899,235991,14.43,21,1.63,No,673,26812,Salaried,42,No
+Citibank,Business Loan,30198,433274,3.52,17,0.55,Yes,633,72190,Self-Employed,45,No
+US Bank,Student Loan,65942,746757,4.04,18,0.82,No,633,26256,Business Owner,54,No
+Chase,Student Loan,56118,639948,13.88,4,1.03,No,648,31744,Business Owner,41,Yes
+US Bank,Auto Loan,81725,618780,9.4,4,1.45,Yes,678,91987,Student,49,No
+Capital One,Business Loan,64486,428833,7.63,13,2.96,Yes,710,45655,Self-Employed,52,Yes
+SunTrust,Auto Loan,13330,815530,5.57,26,2.3,Yes,625,85367,Self-Employed,32,Yes
+Citibank,Personal Loan,19766,763637,12.65,2,1.92,Yes,711,62502,Student,46,No
+Citibank,Business Loan,84125,680233,12.93,19,2.07,No,634,53376,Business Owner,34,No
+Bank of America,Auto Loan,48129,649718,5.07,16,2.8,Yes,627,80176,Student,37,No
+Citibank,Student Loan,90412,117957,8.12,28,1.76,Yes,623,93352,Student,40,No
+Capital One,Business Loan,12101,331657,4.46,26,2.66,Yes,707,39810,Self-Employed,39,No
+Wells Fargo,Personal Loan,47912,923358,3.14,15,2.32,No,673,22466,Self-Employed,32,No
+Wells Fargo,Student Loan,37496,724281,12.77,18,1.11,Yes,687,45610,Salaried,44,Yes
+Bank of America,Home Loan,90025,93736,8.76,6,1.25,Yes,709,69129,Self-Employed,36,No
+SunTrust,Personal Loan,46660,141518,5.26,13,1.9,No,621,52263,Business Owner,54,Yes
+SunTrust,Student Loan,61995,228544,8.22,14,1.7,No,721,92709,Salaried,31,Yes
+Bank of America,Home Loan,28115,269645,10.05,2,1.83,Yes,736,45643,Salaried,44,Yes
+US Bank,Auto Loan,93429,650257,12.93,10,1.2,No,653,82037,Student,41,Yes
+Chase,Personal Loan,82773,570776,12.81,22,2.37,Yes,729,59940,Salaried,41,No
+Regions Bank,Student Loan,9998,957035,14.32,19,0.98,No,720,51154,Self-Employed,37,No
+Capital One,Student Loan,1567,811068,7.06,2,1.46,No,677,43949,Self-Employed,37,Yes
+TD Bank,Home Loan,23845,712946,11.56,10,2.58,No,690,84125,Business Owner,56,Yes
+Capital One,Home Loan,63445,497338,11.05,14,2.98,Yes,746,84508,Student,49,No
+TD Bank,Auto Loan,12791,821435,7.97,3,1.65,Yes,690,27351,Self-Employed,44,Yes
+TD Bank,Business Loan,29899,672903,12.85,13,2.79,Yes,650,64841,Self-Employed,50,Yes
+Bank of America,Business Loan,70054,282327,6.42,12,2.53,Yes,638,46878,Self-Employed,39,No
+Regions Bank,Auto Loan,71232,889717,13.83,8,1.44,Yes,624,43765,Business Owner,36,No
+Chase,Student Loan,74120,166622,13.12,15,1.81,No,666,55911,Salaried,49,No
+Wells Fargo,Business Loan,90830,612982,8.07,27,2.23,Yes,609,45506,Salaried,42,Yes
+Citibank,Auto Loan,12574,828123,11.41,14,0.64,No,655,62217,Salaried,32,No
+Wells Fargo,Personal Loan,86948,295733,7.53,26,0.78,No,641,22644,Self-Employed,35,No
+Citibank,Personal Loan,26366,859767,6.04,27,2.65,No,711,80757,Salaried,43,Yes
+TD Bank,Home Loan,6861,110866,5.86,13,1.81,No,720,62423,Salaried,45,No
+US Bank,Auto Loan,4988,688818,7.12,13,2.33,Yes,626,96539,Student,41,No
+US Bank,Business Loan,7832,379053,10.63,3,2.58,No,737,20689,Salaried,38,Yes
+Capital One,Personal Loan,6122,719149,11.24,7,2.28,Yes,688,32793,Business Owner,30,Yes
+US Bank,Business Loan,96988,933445,7.01,9,1.32,Yes,677,95507,Self-Employed,44,Yes
+Regions Bank,Business Loan,31558,692395,14.73,10,0.72,No,646,34659,Salaried,59,Yes
+Bank of America,Personal Loan,23207,103966,8.33,1,2.83,No,695,71814,Salaried,35,No
+Bank of America,Student Loan,11348,549689,13.89,16,1.42,Yes,708,61572,Student,50,Yes
+Bank of America,Personal Loan,42657,441316,5.82,26,1.63,No,676,33425,Salaried,47,Yes
+SunTrust,Auto Loan,21941,72870,13.18,13,2.84,Yes,711,99183,Student,36,No
+US Bank,Business Loan,12555,19996,8.0,14,1.29,No,649,54489,Salaried,32,Yes
+PNC Bank,Auto Loan,1571,740348,11.86,26,0.92,No,714,94585,Self-Employed,31,Yes
+PNC Bank,Business Loan,59050,933280,3.08,16,1.88,Yes,681,71202,Business Owner,47,No
+Bank of America,Auto Loan,35359,180429,10.84,26,2.81,Yes,671,34128,Student,39,No
+Regions Bank,Auto Loan,57153,188152,14.67,3,1.17,No,680,67447,Business Owner,47,Yes
+Capital One,Personal Loan,13972,103727,4.68,19,2.45,Yes,606,26289,Self-Employed,45,No
+Regions Bank,Business Loan,3040,296797,14.12,2,0.74,No,663,29747,Business Owner,32,Yes
+Regions Bank,Student Loan,74813,774219,10.54,4,1.83,Yes,715,37356,Student,48,Yes
+US Bank,Student Loan,39464,660861,9.41,17,2.36,Yes,696,39899,Self-Employed,45,No
+Bank of America,Home Loan,80730,938311,9.28,14,1.7,Yes,684,65682,Salaried,58,Yes
+SunTrust,Home Loan,98619,706538,9.22,24,0.68,No,625,26087,Student,58,Yes
+Regions Bank,Student Loan,80427,961032,4.91,26,1.91,Yes,657,60846,Self-Employed,37,No
+PNC Bank,Business Loan,35256,777516,3.19,21,2.5,No,671,40077,Student,42,No
+TD Bank,Home Loan,83605,755668,5.47,13,1.18,Yes,664,92909,Business Owner,44,Yes
+Bank of America,Student Loan,61406,808308,4.97,28,2.38,No,633,31583,Self-Employed,35,No
+TD Bank,Business Loan,98472,312459,6.82,23,0.67,No,650,57624,Self-Employed,49,No
+US Bank,Personal Loan,48492,122074,6.17,3,1.62,Yes,600,66050,Salaried,32,No
+SunTrust,Student Loan,38862,39946,6.06,2,1.58,No,628,86564,Student,36,No
+SunTrust,Business Loan,96440,813897,13.65,1,1.02,Yes,683,22946,Business Owner,34,No
+Chase,Home Loan,69388,998950,7.07,4,2.78,Yes,727,38662,Self-Employed,57,No
+Chase,Home Loan,31153,587886,11.63,21,2.15,Yes,667,25068,Student,33,No
+TD Bank,Personal Loan,88761,724822,14.35,9,2.49,No,624,79624,Salaried,56,No
+Citibank,Home Loan,43840,714242,12.22,13,1.74,Yes,639,99531,Student,58,No
+TD Bank,Student Loan,98916,694385,12.57,26,0.71,Yes,711,26968,Business Owner,47,No
+Citibank,Home Loan,73189,174992,5.9,10,1.98,Yes,667,30525,Salaried,41,Yes
+US Bank,Home Loan,91405,577670,6.83,22,2.62,Yes,743,31713,Self-Employed,35,Yes
+Capital One,Business Loan,25065,245315,12.16,23,0.72,No,671,80849,Student,47,No
+Bank of America,Home Loan,11059,250065,6.77,7,0.77,No,676,45523,Salaried,54,Yes
+SunTrust,Auto Loan,15286,378106,6.3,18,2.16,Yes,664,61945,Business Owner,54,Yes
+Bank of America,Personal Loan,90762,297224,13.39,19,1.91,No,624,56338,Business Owner,59,No
+SunTrust,Auto Loan,7995,355581,14.9,13,0.78,No,738,48408,Student,31,Yes
+Capital One,Business Loan,89092,651749,3.0,4,2.61,Yes,637,92057,Salaried,55,Yes
+TD Bank,Auto Loan,51596,221799,8.06,14,2.81,No,657,78950,Student,43,Yes
+TD Bank,Business Loan,33460,259800,10.05,11,1.82,No,606,40614,Student,55,Yes
+Capital One,Personal Loan,24709,741692,11.04,6,1.93,Yes,623,66639,Self-Employed,46,Yes
+Regions Bank,Business Loan,68262,177888,12.57,1,1.35,No,621,93319,Student,42,No
+Citibank,Student Loan,91302,542906,13.61,26,1.11,Yes,732,90547,Student,30,No
+Bank of America,Auto Loan,19773,207472,5.39,20,2.59,Yes,700,99292,Business Owner,47,Yes
+US Bank,Auto Loan,41569,817712,7.06,1,2.61,Yes,689,66702,Business Owner,58,No
+Regions Bank,Auto Loan,96510,173258,5.94,3,2.53,No,671,33993,Business Owner,40,Yes
+Citibank,Business Loan,54747,758937,7.6,13,2.81,No,602,74594,Business Owner,34,Yes
+Wells Fargo,Business Loan,10190,212557,6.73,27,2.95,Yes,718,38960,Student,34,No
+US Bank,Business Loan,39826,939206,11.51,13,2.95,No,707,93326,Salaried,35,No
+Bank of America,Personal Loan,92824,858414,7.74,19,1.43,No,747,71399,Salaried,55,Yes
+Citibank,Auto Loan,23237,510454,3.29,22,1.2,Yes,654,87061,Salaried,35,No
+Regions Bank,Business Loan,25166,548766,14.54,7,0.74,Yes,749,32826,Salaried,56,Yes
+Citibank,Personal Loan,61751,289243,7.24,1,2.63,Yes,601,76528,Business Owner,35,No
+Citibank,Personal Loan,47199,430304,7.33,14,1.11,No,641,66730,Business Owner,38,No
+Regions Bank,Personal Loan,48149,938419,5.33,26,2.31,Yes,711,26596,Student,45,No
+TD Bank,Home Loan,96849,409329,10.95,13,2.78,Yes,674,40421,Business Owner,32,Yes
+Bank of America,Student Loan,14577,279762,9.84,15,1.12,No,679,58817,Business Owner,39,No
+TD Bank,Personal Loan,90793,548761,3.78,18,2.11,Yes,703,99587,Salaried,45,Yes
+SunTrust,Auto Loan,88465,701707,3.49,14,1.96,Yes,694,88382,Salaried,40,Yes
+TD Bank,Student Loan,49728,975248,7.88,26,0.81,No,667,99997,Student,57,Yes
+Regions Bank,Business Loan,93373,125836,11.83,12,2.25,Yes,670,31219,Student,53,No
+SunTrust,Business Loan,50658,194348,8.99,2,0.68,Yes,691,56464,Business Owner,42,No
+US Bank,Student Loan,51093,335972,4.26,25,2.39,Yes,692,34089,Business Owner,44,Yes
+Citibank,Business Loan,92739,516968,12.73,23,2.83,Yes,710,82882,Salaried,36,Yes
+Citibank,Student Loan,4275,143895,8.29,3,1.71,Yes,735,91581,Salaried,37,Yes
+SunTrust,Home Loan,53099,517620,5.27,20,0.88,No,709,86795,Salaried,36,Yes
+Bank of America,Auto Loan,81519,418844,10.37,11,2.49,No,749,41529,Business Owner,56,Yes
+TD Bank,Personal Loan,67085,532454,10.55,14,2.11,No,730,44457,Business Owner,53,No
+Chase,Auto Loan,35076,205036,13.42,4,2.23,Yes,698,50995,Self-Employed,47,No
+Citibank,Personal Loan,17637,355848,7.92,7,1.94,No,616,50262,Salaried,40,No
+Regions Bank,Auto Loan,55370,867334,8.84,28,2.02,Yes,724,73261,Self-Employed,45,No
+TD Bank,Home Loan,32418,796278,5.67,20,0.86,Yes,622,87025,Student,37,Yes
+Bank of America,Home Loan,50316,257514,11.81,4,2.64,Yes,687,73464,Business Owner,51,Yes
+Regions Bank,Auto Loan,47472,221461,14.25,8,2.88,No,738,35066,Salaried,36,No
+TD Bank,Student Loan,58805,618423,10.73,9,1.52,No,636,68748,Business Owner,35,Yes
+Citibank,Home Loan,87178,305883,5.57,6,1.02,No,643,74138,Salaried,56,Yes
+Regions Bank,Auto Loan,10419,229039,8.19,1,0.56,Yes,641,88632,Self-Employed,45,Yes
+US Bank,Personal Loan,87942,610757,11.06,29,1.67,Yes,738,61977,Student,53,No
+Wells Fargo,Home Loan,72582,266619,9.15,22,2.74,No,728,29949,Salaried,30,No
+Regions Bank,Student Loan,61017,951107,14.02,5,2.17,Yes,721,33370,Business Owner,37,Yes
+Citibank,Personal Loan,40658,928784,6.79,24,1.22,Yes,717,80217,Business Owner,40,Yes
+Bank of America,Auto Loan,41336,750838,13.21,29,2.3,No,710,56251,Salaried,47,No
+Wells Fargo,Home Loan,76388,469175,10.14,17,2.05,Yes,688,52649,Self-Employed,54,No
+PNC Bank,Student Loan,74949,954190,11.84,21,2.3,No,749,34932,Self-Employed,40,No
+Wells Fargo,Auto Loan,89533,943161,12.78,19,1.43,No,684,92775,Student,41,No
+Capital One,Personal Loan,86492,377282,3.69,25,0.56,No,723,97145,Student,51,No
+Regions Bank,Business Loan,77174,214427,5.58,25,0.59,No,679,93292,Salaried,41,No
+TD Bank,Home Loan,95996,624739,6.58,25,2.61,No,733,65059,Student,40,Yes
+SunTrust,Home Loan,51298,59351,8.75,24,2.54,No,741,23888,Self-Employed,57,No
+Citibank,Home Loan,33376,139309,6.72,14,1.84,Yes,630,68955,Self-Employed,31,No
+PNC Bank,Business Loan,87727,219389,4.99,14,2.42,Yes,680,22983,Student,37,Yes
+Regions Bank,Business Loan,98903,558329,5.51,18,1.43,Yes,634,38863,Student,40,Yes
+Regions Bank,Auto Loan,71126,772482,5.69,26,1.14,Yes,729,76345,Business Owner,58,No
+PNC Bank,Auto Loan,98628,882745,4.33,22,2.3,Yes,735,42196,Salaried,58,Yes
+Citibank,Home Loan,84218,768535,3.73,14,2.75,No,730,76302,Business Owner,47,No
+SunTrust,Home Loan,41207,920461,6.55,3,2.98,No,749,28962,Salaried,31,No
+Chase,Business Loan,56480,343507,14.7,16,1.05,No,749,78990,Business Owner,34,Yes
+Chase,Student Loan,78441,838462,4.42,2,2.14,Yes,726,35076,Self-Employed,57,Yes
+US Bank,Student Loan,21904,373202,9.61,20,2.23,Yes,624,38415,Student,44,Yes
+TD Bank,Personal Loan,74074,103168,9.28,13,1.99,Yes,706,21358,Self-Employed,53,Yes
+Wells Fargo,Personal Loan,63591,593897,13.93,28,2.96,No,679,65231,Self-Employed,57,No
+SunTrust,Personal Loan,12965,125594,11.15,19,0.98,Yes,649,82780,Salaried,50,No
+Wells Fargo,Auto Loan,31027,474738,4.82,19,2.06,No,738,40033,Salaried,45,No
+PNC Bank,Auto Loan,63581,841047,6.05,15,1.29,Yes,600,67609,Student,31,No
+SunTrust,Student Loan,85735,471313,13.38,21,2.5,Yes,659,46140,Student,49,No
+TD Bank,Business Loan,5015,984717,11.55,18,1.94,Yes,748,31253,Salaried,42,No
+Capital One,Personal Loan,95926,769932,8.67,18,2.3,No,743,39297,Salaried,30,No
+SunTrust,Personal Loan,61163,284777,6.48,3,1.58,Yes,688,26184,Self-Employed,38,Yes
+PNC Bank,Personal Loan,89501,809025,10.98,14,0.73,Yes,648,57815,Salaried,34,Yes
+US Bank,Home Loan,84407,829688,8.71,2,0.85,No,622,72041,Salaried,38,Yes
+TD Bank,Auto Loan,42043,703594,13.25,13,2.33,No,609,29601,Salaried,51,No
+Citibank,Business Loan,28143,266519,3.92,27,1.18,Yes,650,52094,Business Owner,49,No
+US Bank,Auto Loan,55669,427998,6.01,11,1.26,Yes,701,75491,Student,43,No
+US Bank,Home Loan,79203,87257,10.5,6,1.38,Yes,691,64636,Business Owner,54,No
+SunTrust,Auto Loan,77619,345429,4.04,4,2.72,No,720,31208,Self-Employed,43,No
+Chase,Student Loan,52289,470421,9.39,5,1.85,No,624,22117,Self-Employed,52,Yes
+Citibank,Home Loan,10437,124618,9.99,16,1.85,Yes,725,68337,Salaried,30,Yes
+PNC Bank,Business Loan,37662,544006,5.85,20,2.29,No,666,32479,Student,56,No
+SunTrust,Business Loan,55021,478119,9.06,13,1.82,Yes,613,73211,Student,58,Yes
+Bank of America,Personal Loan,17688,875103,11.1,17,1.44,Yes,700,70902,Business Owner,55,Yes
+US Bank,Home Loan,46873,656826,5.48,22,2.04,Yes,720,31290,Salaried,50,Yes
+Capital One,Auto Loan,13367,509710,12.74,10,2.47,No,622,55818,Self-Employed,51,No
+PNC Bank,Home Loan,45701,513409,8.92,9,1.26,Yes,642,92350,Business Owner,55,No
+Bank of America,Business Loan,11249,54958,8.73,27,2.85,No,680,40923,Salaried,39,Yes
+Capital One,Personal Loan,45668,649567,6.9,26,1.63,No,630,85028,Self-Employed,38,No
+US Bank,Home Loan,98856,342105,8.73,15,2.07,Yes,723,33218,Salaried,58,Yes
+TD Bank,Auto Loan,77474,981266,8.09,5,1.34,No,664,86335,Student,42,No
+Chase,Personal Loan,36034,452897,11.21,25,2.37,No,713,61005,Salaried,41,Yes
+TD Bank,Student Loan,24099,496723,12.48,15,1.77,No,604,77211,Self-Employed,38,Yes
+Capital One,Personal Loan,23333,773379,5.98,3,1.29,No,717,58147,Student,41,Yes
+SunTrust,Student Loan,45821,726570,14.83,19,0.67,No,624,29855,Salaried,45,Yes
+Bank of America,Student Loan,9439,656270,13.26,10,1.07,Yes,609,35149,Business Owner,52,Yes
+Regions Bank,Personal Loan,41485,189118,6.12,14,1.67,No,682,66932,Self-Employed,57,No
+Chase,Business Loan,77905,505589,4.65,13,1.52,Yes,650,97308,Salaried,55,No
+Bank of America,Personal Loan,64535,674984,11.97,20,0.94,Yes,618,38372,Self-Employed,51,No
+PNC Bank,Student Loan,63085,748818,3.64,25,1.69,No,744,73819,Student,52,Yes
+TD Bank,Personal Loan,91710,561789,4.14,24,2.79,Yes,654,24831,Student,44,Yes
+Bank of America,Student Loan,14324,580455,7.53,28,2.2,Yes,601,88695,Business Owner,50,Yes
+Citibank,Student Loan,76395,219456,6.5,16,2.93,Yes,663,50667,Self-Employed,46,Yes
+Wells Fargo,Home Loan,25648,400667,8.8,24,1.8,Yes,697,48542,Salaried,40,No
+Capital One,Student Loan,64849,600608,13.05,9,0.78,No,720,98204,Business Owner,48,No
+Chase,Business Loan,22689,134831,10.4,12,1.36,No,734,60408,Salaried,33,No
+Bank of America,Student Loan,30049,727162,9.48,6,2.21,Yes,649,60381,Self-Employed,47,No
+PNC Bank,Auto Loan,95862,971285,11.41,6,2.63,No,689,27863,Student,53,Yes
+Wells Fargo,Student Loan,62926,602347,4.06,21,1.15,No,681,58809,Business Owner,59,No
+PNC Bank,Personal Loan,81775,159142,3.19,7,2.32,Yes,719,30661,Salaried,57,Yes
+Bank of America,Auto Loan,43834,627181,7.1,9,1.41,No,616,24596,Business Owner,42,Yes
+US Bank,Home Loan,73255,772209,10.65,23,1.98,No,604,20706,Business Owner,50,Yes
+PNC Bank,Business Loan,29869,640969,8.5,17,2.03,Yes,603,65489,Salaried,53,Yes
+PNC Bank,Student Loan,75670,815976,3.53,22,0.87,Yes,696,73954,Business Owner,37,Yes
+TD Bank,Home Loan,17375,721491,9.31,23,2.12,Yes,729,32531,Student,38,No
+Regions Bank,Home Loan,46132,881579,6.56,19,2.96,Yes,636,36040,Salaried,42,No
+Citibank,Home Loan,32869,963186,7.52,21,0.54,Yes,615,74155,Salaried,44,No
+Regions Bank,Personal Loan,68546,882445,12.39,10,1.76,Yes,744,71870,Business Owner,54,No
+Citibank,Personal Loan,38831,412149,7.96,17,2.46,Yes,679,45193,Student,54,Yes
+Bank of America,Student Loan,1030,638582,3.48,24,0.68,Yes,678,37754,Student,56,Yes
+Citibank,Personal Loan,52298,514501,8.49,17,2.99,No,724,63197,Self-Employed,42,No
+Capital One,Student Loan,75482,557568,12.51,27,2.74,Yes,614,23120,Salaried,58,Yes
+Regions Bank,Home Loan,82395,507402,14.7,11,1.23,No,612,67390,Salaried,32,Yes
+TD Bank,Student Loan,38666,793114,8.87,17,2.3,No,679,97013,Salaried,34,Yes
+Citibank,Student Loan,11455,867952,4.3,7,2.12,No,618,99364,Salaried,50,No
+Bank of America,Student Loan,86034,952211,6.44,22,2.96,No,728,24368,Self-Employed,36,No
+TD Bank,Home Loan,96091,754295,11.52,22,1.42,No,714,53503,Self-Employed,37,Yes
+Citibank,Auto Loan,1094,174756,11.1,8,1.01,No,633,97395,Salaried,45,Yes
+SunTrust,Student Loan,11588,926041,4.57,23,0.76,Yes,637,79398,Business Owner,32,Yes
+US Bank,Auto Loan,87513,294577,11.27,22,1.77,Yes,648,37177,Salaried,52,Yes
+Bank of America,Business Loan,28758,258774,11.8,19,2.73,No,657,27826,Business Owner,56,Yes
+Capital One,Personal Loan,85857,983723,4.19,24,1.43,No,650,72136,Self-Employed,31,No
+US Bank,Home Loan,17387,61465,10.67,2,2.91,No,673,48678,Business Owner,30,Yes
+Citibank,Auto Loan,37630,794784,3.31,20,1.35,No,738,32592,Business Owner,35,Yes
+Regions Bank,Auto Loan,10376,370721,5.35,28,2.12,Yes,716,79207,Self-Employed,50,Yes
+US Bank,Student Loan,8356,300861,9.92,1,0.57,No,670,96467,Salaried,52,Yes
+TD Bank,Student Loan,96423,648335,12.65,12,2.3,Yes,687,44299,Student,58,Yes
+Capital One,Business Loan,42021,264062,7.67,11,2.13,Yes,726,58583,Salaried,38,Yes
+Regions Bank,Student Loan,54720,892957,6.48,10,2.57,No,686,86835,Self-Employed,42,Yes
+SunTrust,Student Loan,85213,304972,6.64,6,0.74,No,746,88451,Business Owner,59,No
+Capital One,Business Loan,76562,195036,3.34,12,0.64,No,600,43546,Self-Employed,56,No
+Citibank,Auto Loan,60508,119669,14.32,2,1.34,No,624,28063,Self-Employed,57,No
+PNC Bank,Personal Loan,2302,93303,9.19,7,1.51,No,651,36052,Self-Employed,56,Yes
+Chase,Personal Loan,83188,493242,7.43,10,2.16,Yes,724,50950,Salaried,54,No
+Chase,Home Loan,62131,840010,4.83,14,1.06,Yes,602,38778,Student,49,Yes
+Bank of America,Auto Loan,5893,189163,6.45,23,2.19,No,603,92604,Self-Employed,35,Yes
+PNC Bank,Business Loan,53709,565906,3.51,24,0.68,No,620,84489,Business Owner,58,No
+Chase,Auto Loan,8987,679741,4.33,5,2.0,No,645,98720,Salaried,45,No
+Chase,Business Loan,49144,404058,3.71,13,1.95,Yes,666,55584,Salaried,37,No
+Regions Bank,Home Loan,21234,928408,8.65,3,0.87,Yes,621,90436,Student,30,No
+Chase,Home Loan,43100,801415,6.16,29,2.65,No,743,66679,Salaried,42,No
+US Bank,Student Loan,23185,919435,6.09,5,1.27,Yes,626,67757,Salaried,42,No
+Chase,Student Loan,84927,524624,9.21,2,0.93,Yes,736,77471,Salaried,44,No
+Bank of America,Business Loan,8032,371152,11.87,14,2.57,No,735,58842,Business Owner,42,Yes
+Wells Fargo,Personal Loan,9353,885282,9.66,14,2.78,No,695,48492,Salaried,55,Yes
+Capital One,Student Loan,87509,172956,10.95,20,1.84,No,685,71243,Self-Employed,34,No
+Citibank,Home Loan,91412,733923,11.73,9,2.34,No,668,22956,Salaried,41,No
+SunTrust,Auto Loan,7996,224090,12.54,17,2.79,No,633,37423,Salaried,38,No
+PNC Bank,Business Loan,90089,362710,3.4,10,0.87,Yes,663,72020,Self-Employed,54,Yes
+Wells Fargo,Personal Loan,57179,630569,6.31,10,0.9,Yes,628,86322,Business Owner,44,Yes
+US Bank,Business Loan,77153,383118,7.01,17,0.58,No,704,42773,Self-Employed,32,Yes
+Wells Fargo,Personal Loan,81250,677323,9.57,1,0.59,No,639,91080,Self-Employed,49,Yes
+TD Bank,Personal Loan,24218,774221,5.63,9,0.99,Yes,688,70499,Student,54,Yes
+US Bank,Student Loan,25332,899001,7.04,8,2.66,No,731,81477,Self-Employed,57,Yes
+Wells Fargo,Business Loan,28911,787955,6.8,8,2.09,Yes,648,55502,Salaried,53,Yes
+Regions Bank,Student Loan,17234,235206,5.29,20,2.14,Yes,727,80171,Salaried,52,Yes
+US Bank,Home Loan,45072,576751,4.68,15,2.28,Yes,730,23502,Business Owner,57,Yes
+PNC Bank,Auto Loan,8538,100223,13.42,7,1.02,No,718,52860,Self-Employed,32,Yes
+PNC Bank,Personal Loan,79132,214019,13.7,13,2.34,No,738,29516,Student,33,Yes
+PNC Bank,Home Loan,83670,134060,5.95,2,2.44,Yes,670,77572,Self-Employed,33,Yes
+Regions Bank,Business Loan,7271,291835,6.34,10,1.11,Yes,698,70635,Self-Employed,43,Yes
+Capital One,Personal Loan,14842,874104,12.02,17,1.08,No,742,61861,Self-Employed,30,No
+PNC Bank,Business Loan,86521,343374,6.88,9,1.35,No,601,24731,Salaried,56,Yes
+US Bank,Home Loan,42249,514392,4.79,14,1.03,No,604,56383,Student,53,Yes
+Citibank,Student Loan,53316,56615,13.33,11,1.01,Yes,725,22204,Student,50,Yes
+Bank of America,Student Loan,9825,980934,11.94,1,2.01,Yes,717,56066,Salaried,59,Yes
+SunTrust,Home Loan,8177,819548,11.44,14,1.43,Yes,727,62210,Salaried,41,No
+Capital One,Home Loan,45889,186158,9.23,6,2.61,No,633,59243,Student,46,No
+Wells Fargo,Business Loan,14253,666300,5.31,7,2.67,No,667,26237,Student,38,No
+Wells Fargo,Home Loan,18076,732744,8.81,25,0.5,Yes,731,84661,Self-Employed,44,Yes
+PNC Bank,Student Loan,16819,765498,14.03,19,0.64,No,657,29262,Salaried,36,No
+Regions Bank,Home Loan,40011,401137,7.31,16,2.47,No,705,52021,Student,35,Yes
+SunTrust,Personal Loan,57545,778285,7.39,2,0.92,No,682,97733,Self-Employed,55,No
+Chase,Personal Loan,36565,723319,12.3,16,1.23,Yes,695,37126,Salaried,57,Yes
+Wells Fargo,Personal Loan,66893,304353,10.01,9,2.05,Yes,748,69090,Business Owner,55,No
+US Bank,Personal Loan,88633,356313,4.87,23,2.61,Yes,742,95670,Salaried,40,No
+Regions Bank,Personal Loan,35022,82462,4.06,15,0.52,Yes,690,74402,Self-Employed,37,Yes
+Citibank,Student Loan,15907,203060,14.92,25,0.71,Yes,678,61494,Business Owner,30,Yes
+Bank of America,Personal Loan,55065,726763,8.44,1,2.07,No,678,60442,Business Owner,30,Yes
+Citibank,Home Loan,60487,363214,4.62,1,2.77,Yes,628,98166,Self-Employed,33,Yes
+Citibank,Business Loan,58967,222209,13.39,8,1.39,Yes,710,38491,Salaried,51,Yes
+US Bank,Auto Loan,14954,96218,7.44,11,2.76,No,636,49899,Student,32,No
+Chase,Business Loan,11577,718006,12.16,21,1.23,Yes,635,86214,Self-Employed,42,No
+Regions Bank,Home Loan,61436,460898,5.19,22,0.88,No,745,81041,Business Owner,59,No
+TD Bank,Personal Loan,20201,722794,4.97,28,2.99,Yes,621,79312,Student,41,Yes
+Citibank,Student Loan,2288,50059,4.53,8,0.56,Yes,726,59077,Salaried,30,No
+Chase,Personal Loan,53831,118572,3.31,8,0.86,Yes,673,74525,Salaried,35,No
+SunTrust,Auto Loan,65351,157305,4.45,4,0.78,No,610,31118,Student,41,No
+Regions Bank,Auto Loan,6269,172614,13.79,23,1.39,No,703,65167,Student,52,No
+Citibank,Business Loan,74622,598844,7.13,20,1.97,No,611,65719,Student,56,Yes
+US Bank,Home Loan,33056,685556,9.87,11,2.17,Yes,637,91917,Student,35,Yes
+Bank of America,Home Loan,91954,823667,6.18,3,2.1,Yes,643,43740,Self-Employed,40,No
+Capital One,Student Loan,70807,783045,6.79,13,0.64,Yes,699,56032,Self-Employed,48,No
+Wells Fargo,Student Loan,23254,255075,5.78,26,2.75,No,676,63339,Self-Employed,51,Yes
+Capital One,Student Loan,54679,304748,11.88,7,2.92,No,665,56333,Self-Employed,59,Yes
+Regions Bank,Auto Loan,77810,920492,8.68,9,2.32,No,601,99190,Salaried,43,Yes
+US Bank,Student Loan,24089,358210,14.92,8,2.07,No,736,33488,Student,56,Yes
+Citibank,Student Loan,2485,372073,11.03,11,1.32,Yes,736,96477,Self-Employed,39,Yes
+Citibank,Home Loan,52634,413410,5.35,14,2.66,Yes,746,32752,Salaried,58,Yes
+Bank of America,Auto Loan,39587,478371,12.7,20,2.73,No,732,37838,Salaried,56,Yes
+Regions Bank,Personal Loan,44470,208158,7.39,3,2.7,Yes,632,96032,Student,48,No
+Chase,Student Loan,88381,559536,9.14,29,1.04,No,636,30609,Business Owner,57,Yes
+Citibank,Auto Loan,78724,761414,3.85,22,2.19,No,610,33363,Self-Employed,45,Yes
+US Bank,Personal Loan,24542,90896,6.3,20,1.87,No,714,91043,Student,34,Yes
+SunTrust,Auto Loan,85149,715703,10.54,5,2.47,No,641,28399,Business Owner,40,Yes
+TD Bank,Home Loan,88784,785547,10.84,10,1.79,Yes,712,99776,Self-Employed,31,Yes
+TD Bank,Home Loan,18137,106955,7.85,6,2.24,Yes,745,53264,Salaried,44,Yes
+Capital One,Student Loan,80805,727428,5.8,1,1.53,No,637,66084,Student,49,Yes
+Bank of America,Auto Loan,63088,75768,11.83,21,1.42,Yes,627,63493,Business Owner,56,Yes
+Regions Bank,Business Loan,59850,421400,7.71,8,2.6,No,749,81235,Student,44,Yes
+Regions Bank,Home Loan,82851,140622,12.57,8,2.77,No,698,40155,Business Owner,41,Yes
+Capital One,Student Loan,80519,92963,10.5,24,0.66,No,692,42875,Business Owner,40,Yes
+Capital One,Business Loan,73723,302668,8.39,4,1.19,Yes,717,28963,Business Owner,31,Yes
+Wells Fargo,Personal Loan,23561,578503,5.46,20,2.08,No,669,76088,Salaried,34,No
+Bank of America,Student Loan,9967,959011,12.0,21,0.67,Yes,741,40228,Student,55,No
+Bank of America,Auto Loan,59876,267704,6.18,29,0.66,No,724,79980,Self-Employed,38,No
+PNC Bank,Home Loan,5515,436547,6.96,6,1.27,Yes,731,83800,Self-Employed,44,Yes
+US Bank,Personal Loan,90310,476794,4.21,26,1.01,Yes,704,32496,Self-Employed,57,No
+PNC Bank,Personal Loan,97689,182658,14.36,4,0.9,Yes,720,90206,Salaried,46,Yes
+Regions Bank,Auto Loan,94459,695286,7.27,20,1.56,Yes,679,51558,Student,56,Yes
+SunTrust,Business Loan,64250,299546,12.82,25,1.32,Yes,607,35369,Student,41,Yes
+Bank of America,Auto Loan,28339,727911,3.85,24,0.95,No,673,42219,Business Owner,54,Yes
+Capital One,Personal Loan,48376,885518,7.19,9,2.63,No,728,52356,Student,58,Yes
+TD Bank,Student Loan,18025,475638,7.5,18,2.48,Yes,707,87661,Self-Employed,52,Yes
+Wells Fargo,Student Loan,94384,421589,6.99,19,0.88,Yes,709,28281,Student,41,Yes
+SunTrust,Student Loan,92441,700914,12.16,6,2.4,No,659,63179,Business Owner,34,Yes
+Regions Bank,Home Loan,75710,417950,12.86,23,0.54,Yes,655,86261,Salaried,59,Yes
+TD Bank,Auto Loan,57125,362130,3.24,1,1.89,No,704,53156,Business Owner,51,Yes
+Wells Fargo,Personal Loan,19273,776771,13.05,17,2.28,No,661,50716,Salaried,36,No
+Chase,Personal Loan,94288,699827,11.65,7,2.47,No,655,94811,Salaried,33,Yes
+Chase,Student Loan,73214,154534,3.2,28,0.89,No,705,35698,Salaried,32,No
+Capital One,Home Loan,90302,329765,7.42,27,1.5,Yes,605,60467,Self-Employed,48,No
+SunTrust,Personal Loan,89768,628404,6.59,3,1.36,Yes,607,48953,Self-Employed,54,No
+Chase,Home Loan,34374,865324,5.76,15,0.55,No,713,96094,Business Owner,55,Yes
+Citibank,Business Loan,53142,477839,3.44,21,2.97,No,734,22810,Business Owner,53,Yes
+Chase,Business Loan,89317,355138,3.68,22,1.8,No,656,87718,Salaried,49,No
+Wells Fargo,Auto Loan,98382,131509,8.16,6,1.83,Yes,674,41442,Salaried,50,No
+Citibank,Personal Loan,17938,650105,3.68,9,0.95,No,741,20888,Business Owner,56,Yes
+Wells Fargo,Business Loan,71007,902595,4.65,2,0.8,No,615,55844,Salaried,45,No
+Capital One,Auto Loan,96059,418759,6.02,20,1.15,Yes,644,61812,Self-Employed,38,Yes
+Chase,Auto Loan,99591,829184,5.28,20,0.73,No,680,79435,Student,57,No
+PNC Bank,Student Loan,3002,27355,5.37,26,2.09,No,743,43324,Business Owner,56,Yes
+Capital One,Auto Loan,42706,974718,9.92,21,2.95,No,618,65986,Self-Employed,44,Yes
+PNC Bank,Business Loan,63917,597231,14.73,21,1.41,No,697,42346,Self-Employed,56,No
+SunTrust,Business Loan,62792,148629,12.43,22,2.22,Yes,622,46561,Self-Employed,49,No
+Regions Bank,Personal Loan,98765,902813,14.24,21,0.72,Yes,693,99387,Salaried,33,Yes
+US Bank,Home Loan,94038,851412,9.19,29,1.61,No,733,41576,Business Owner,52,Yes
+Regions Bank,Auto Loan,64521,819190,4.96,17,1.93,No,615,98133,Salaried,51,No
+Bank of America,Student Loan,39340,90592,10.95,15,1.37,Yes,652,22604,Self-Employed,57,No
+Capital One,Business Loan,8415,65777,4.34,22,1.98,Yes,713,61917,Student,43,No
+Capital One,Home Loan,40948,323756,7.27,28,0.6,No,665,35448,Business Owner,30,No
+SunTrust,Personal Loan,84457,434057,14.42,6,1.44,Yes,739,55688,Student,33,Yes
+Chase,Business Loan,90210,163679,3.19,7,2.28,No,646,53190,Business Owner,58,Yes
+US Bank,Student Loan,33412,217249,10.83,19,2.67,Yes,685,61402,Business Owner,31,Yes
+SunTrust,Personal Loan,91257,728819,6.47,17,1.04,Yes,697,68745,Self-Employed,49,No
+US Bank,Student Loan,13816,722018,12.17,7,2.19,Yes,617,98667,Salaried,47,Yes
+Bank of America,Business Loan,48636,596072,10.78,12,2.76,No,691,99800,Business Owner,59,No
+Citibank,Personal Loan,35763,902903,6.21,4,0.97,Yes,748,86631,Self-Employed,55,No
+Citibank,Business Loan,36118,536890,11.24,6,2.43,Yes,678,94273,Student,33,No
+Wells Fargo,Personal Loan,64273,542637,8.78,15,1.08,Yes,682,72114,Self-Employed,40,No
+Citibank,Auto Loan,90649,274066,12.36,28,2.08,No,730,46828,Self-Employed,51,No
