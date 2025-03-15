@@ -57,9 +57,9 @@ for chunk in audio_chunks:
     }
 
     # Prepare the file to send
-    with open(temp_audio.wav, 'rb') as audio_file:
+    with open( "temp_audio.wav" , 'rb') as audio_file:
         files = {
-            "file": (temp_audio.wav, audio_file, "audio/wav")
+            "file": ("temp_audio.wav", audio_file, "audio/wav")
         }
         
         # Set headers, including the API key for authentication
