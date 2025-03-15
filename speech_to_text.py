@@ -57,7 +57,7 @@ for chunk in audio_chunks:
     }
 
     # Prepare the file to send
-    with open( "temp_audio.wav" , 'rb') as audio_file:
+    with open("temp_audio.wav", 'rb') as audio_file:
         files = {
             "file": ("temp_audio.wav", audio_file, "audio/wav")
         }
@@ -74,7 +74,8 @@ for chunk in audio_chunks:
         if response.status_code == 200:
             print("Request was successful!")
             print(response.json())  # Print the response JSON (e.g., transcribed text)
-            full_text += response.json()
+            jsondata = response.json()
+            full_text += (jsondata['transcript'])[0]
         else:
             print("Error:", response.status_code)
             print(response.text)
