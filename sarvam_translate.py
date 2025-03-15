@@ -10,7 +10,7 @@ payload = {
     "mode": "formal",
     "model": "mayura:v1",
     "enable_preprocessing": False,
-    "output_script": "roman",
+    "output_script": "fully-native",
     "numerals_format": "international"
 }
 
