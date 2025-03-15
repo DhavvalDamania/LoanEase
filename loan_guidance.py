@@ -1,5 +1,5 @@
 from text_to_speech import tts
-from translate import translate_text
+from sarvam_translate import translation
 import cohere
 
 # Initialize Cohere with your API key
@@ -29,9 +29,15 @@ def split_string(input_string):
     return chunks
 
 # Test the assistant
-source_lang = input("which language do you want to write the question in:")
-question = input("What question do you want to ask to our chatbot:")
-response = ask_cohere(question)
+source_language_code = input("Enter the source language code (e.g., 'en-IN'): ")
+target_language_code = input("Enter the target language code (e.g., 'gu-IN'): ")
+input_text = input("Enter the text you want to translate: ")
+response = ask_cohere(input_text)
 print("AI Response:", response)
 chunks = split_string(response)
 tts(chunks)
+
+chunk_list_len = len(chunks)
+for i in range(chunk_list_len+1):
+    translated_string = ()
+    translated_string += translation(chunks[i],source_language_code,target_language_code)
