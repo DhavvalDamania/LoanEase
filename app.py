@@ -1,43 +1,56 @@
 from flask import Flask, request, jsonify
-import mysql.connector
+from flask_cors import CORS
+from loan_guidance import ask_cohere
+from sarvam_translate import translation
+from speech_to_text import speech_to_text  # Assuming function exists
+from text_to_speech import tts
 
 app = Flask(__name__)
+CORS(app)  # Allow requests from React
 
-# Connect to MySQL
-db = mysql.connector.connect(
-    host="localhost",
-    user="root",
-    password="lifeiseasy#123",
-    database="LoanEase"
-)
-cursor = db.cursor(dictionary=True)
-
-# API Endpoint: Loan Eligibility Check
-@app.route("/check_eligibility", methods=["POST"])
-def check_eligibility():
+@app.route("/loan_guidance", methods=["POST"])
+def loan_guidance():
     data = request.json
-    loan_amount = data["loan_amount"]
-    income = data["income"]
-    credit_score = data["credit_score"]
-    employment_type = data["employment_type"]
+    question = data.get("question")
+    
+    if not question:
+        return jsonify({"error": "No question provided"}), 400
+    
+    response = ask_cohere(question)
+    return jsonify({"response": response})
 
-    # SQL Query to find matching loans
-    query = """
-    SELECT * FROM Loans 
-    WHERE min_loan_amount <= %s 
-    AND max_loan_amount >= %s 
-    AND min_credit_score <= %s 
-    AND min_income <= %s 
-    AND employment_type = %s
-    """
-    cursor.execute(query, (loan_amount, loan_amount, credit_score, income, employment_type))
-    loans = cursor.fetchall()
+@app.route("/translate", methods=["POST"])
+def translate_text():
+    data = request.json
+    text = data.get("text")
+    source_lang = data.get("source_lang")
+    target_lang = data.get("target_lang")
 
-    if not loans:
-        return jsonify({"message": "No suitable loans found"}), 404
+    if not text or not source_lang or not target_lang:
+        return jsonify({"error": "Invalid input"}), 400
+    
+    translated_text = translation(text, source_lang, target_lang)
+    return jsonify({"translated_text": translated_text})
 
-    return jsonify({"eligible_loans": loans})
+@app.route("/speech_to_text", methods=["POST"])
+def convert_speech():
+    if "file" not in request.files:
+        return jsonify({"error": "No file uploaded"}), 400
+    
+    audio_file = request.files["file"]
+    transcript = speech_to_text(audio_file)
+    return jsonify({"transcript": transcript})
 
-# Run the API
+@app.route("/text_to_speech", methods=["POST"])
+def convert_text_to_speech():
+    data = request.json
+    text = data.get("text")
+
+    if not text:
+        return jsonify({"error": "No text provided"}), 400
+    
+    tts([text])  # Convert text to speech
+    return jsonify({"message": "Audio generated", "file": "output_audio.wav"})
+
 if __name__ == "__main__":
     app.run(debug=True)
