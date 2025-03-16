@@ -18,7 +18,7 @@ def translation(input_string,source_lang,target_lang):
 
 
     headers = {
-        "api-subscription-key": "723d3b71-6d58-48ce-a1fe-eea9819daafb",
+        "api-subscription-key": "API-KEY",
         "Content-Type": "application/json"
     }
 

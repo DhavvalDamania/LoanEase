@@ -3,7 +3,7 @@ from sarvam_translate import translation
 import cohere
 
 # Initialize Cohere with your API key
-co = cohere.Client("ciyLysedyglHcElwYwdof1d4dTarreqS9AuttM6d")  # Replace with your actual API key
+co = cohere.Client("API-KEY")  # Replace with your actual API key
 
 # Function to ask a question
 def ask_cohere(question):
