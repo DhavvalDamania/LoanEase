@@ -42,7 +42,7 @@ for i in range(chunk_list_len+1):
     translated_string = ()
     translated_string += translation(chunks[i],source_language_code,target_language_code)
 
-""" 
+
 loan_amt = input("Please enter the amount of loan you want: ")
 monthly_income = input("Enter you're monthly salary:")
 credit_score = input("Enter your credit score: ")
@@ -52,4 +52,4 @@ FinancialHelpQuestion = "I want a loan amount of" + loan_amt + ",my monthly sala
 
 FinancialHelpAnswer = ask_cohere(FinancialHelpQuestion)
 print(FinancialHelpAnswer)
- """
+ 
