@@ -43,7 +43,7 @@ def tts(chunks):
             "override_triplets": {}
         }
         headers = {
-            "api-subscription-key": "API-KEY",
+            "api-subscription-key": "723d3b71-6d58-48ce-a1fe-eea9819daafb",
             "Content-Type": "application/json"
         }
 

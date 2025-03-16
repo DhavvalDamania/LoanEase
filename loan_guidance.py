@@ -3,7 +3,7 @@ from sarvam_translate import translation
 import cohere
 
 # Initialize Cohere with your API key
-co = cohere.Client("API-KEY")  # Replace with your actual API key
+co = cohere.Client("ciyLysedyglHcElwYwdof1d4dTarreqS9AuttM6d")  # Replace with your actual API key
 
 # Function to ask a question
 def ask_cohere(question):
@@ -29,7 +29,7 @@ def split_string(input_string):
     return chunks
 
 # Test the assistant
-source_language_code = input("Enter the source language code (e.g., 'en-IN'): ")
+source_language_code = input("Enter the source (hi) language code (e.g., 'en-IN'): ")
 target_language_code = input("Enter the target language code (e.g., 'gu-IN'): ")
 input_text = input("What question do you want to ask: ")
 response = ask_cohere(input_text)

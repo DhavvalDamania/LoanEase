@@ -1,8 +1,8 @@
 import React from "react";
 import LoanGuidance from "./components/LoanGuidance";
 import Translation from "./components/Translation";
-import SpeechToText from "./components/SpeechToText";
-import TextToSpeech from "./components/TextToSpeech";
+// import SpeechToText from "./components/SpeechToText";
+// import TextToSpeech from "./components/TextToSpeech";
 import "./App.css";
 
 function App() {
@@ -16,10 +16,10 @@ function App() {
         <Translation />
       </div>
       <div className="section">
-        <SpeechToText />
+        {/* <SpeechToText /> */}
       </div>
       <div className="section">
-        <TextToSpeech />
+        {/* <TextToSpeech /> */}
       </div>
     </div>
   );
