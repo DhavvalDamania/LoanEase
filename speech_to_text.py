@@ -27,7 +27,7 @@ def split_audio(audio_path, chunk_duration_ms):
 url = "https://api.sarvam.ai/speech-to-text"
 
 # API subscription key
-api_key = "AP723d3b71-6d58-48ce-a1fe-eea9819daafb"
+api_key = "APIKEY"
 
 # Path to the audio file
 audio_file_path = "C:\Projects\LoanEase\output_audio.wav"
